@@ -16,7 +16,7 @@ message (STATUS "sqlite version ${PROJECT_VERSION}")
 
 option (SQLITE_WITH_SHARED_LIBRARIES "Build shared version of the SQLite libraries." OFF)
 option (SQLITE_WITHOUT_APPS "Build SQLite without apps." OFF)
-option (SQLITE_WITHOUT_INSTALL_ALL "Build SQLite without apps." OFF)
+option (SQLITE_WITHOUT_INSTALL_ALL "Build SQLite without installing all artifacts." OFF)
 option (SQLITE_WITHOUT_INSTALL_FILES "Build SQLite without installing files." OFF)
 option (SQLITE_WITHOUT_INSTALL_HEADERS "Build SQLite without installing headers." OFF)
 option (SQLITE_WITHOUT_INSTALL_LIBRARIES "Build SQLite without installing libraries." OFF)
