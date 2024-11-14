@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED (VERSION 3.1.0...3.15.0)
 
-PROJECT (sqlite LANGUAGES C VERSION "3.29.0")
+PROJECT (sqlite LANGUAGES C VERSION "3.31.0")
 
 ## Separate version number into 4 parts
 string (REGEX MATCHALL "[0-9]+" _my_ver_LIST "${PROJECT_VERSION}")
@@ -16,7 +16,7 @@ message (STATUS "sqlite version ${PROJECT_VERSION}")
 
 option (SQLITE_WITH_SHARED_LIBRARIES "Build shared version of the SQLite libraries." OFF)
 option (SQLITE_WITHOUT_APPS "Build SQLite without apps." OFF)
-option (SQLITE_WITHOUT_INSTALL_ALL "Build SQLite without apps." OFF)
+option (SQLITE_WITHOUT_INSTALL_ALL "Build SQLite without installing all artifacts." OFF)
 option (SQLITE_WITHOUT_INSTALL_FILES "Build SQLite without installing files." OFF)
 option (SQLITE_WITHOUT_INSTALL_HEADERS "Build SQLite without installing headers." OFF)
 option (SQLITE_WITHOUT_INSTALL_LIBRARIES "Build SQLite without installing libraries." OFF)
